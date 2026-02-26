@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #0f172a;
+  --color-bg-tile: #1a1a1a;
+  --color-accent: #deff9a;
+  --color-accent-dim: #84cc16;
+  --color-text-primary: #f5f5f5;
+  --color-text-body: #daffde;
+  --color-text-muted: rgba(218, 255, 222, 0.6);
+  --color-border: rgba(222, 255, 154, 0.1);
+  --color-border-bright: rgba(222, 255, 154, 0.2);
+  --font-display: "Urbanist", system-ui, -apple-system, sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+  color: #daffde;
+  font-family: var(--font-display);
+  -webkit-font-smoothing: antialiased;
+}
+
+.text-glow {
+  color: #deff9a;
+}
+
+@keyframes shimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(222, 255, 154, 0.4); }
+  70% { box-shadow: 0 0 0 20px rgba(222, 255, 154, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(222, 255, 154, 0); }
+}
+
+.animate-pulse-ring { animation: pulse-ring 2s ease infinite; }
+::-webkit-scrollbar { display: none; }
