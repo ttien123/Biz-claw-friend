@@ -3,20 +3,20 @@ import SlideWrapper from "../components/SlideWrapper";
 
 const points = [
   {
-    bold: "BSC Dominance:",
-    text: "Capturing the high-velocity, low-gas retail ecosystem of BNB Smart Chain.",
+    bold: "Full-stack agent economy:",
+    text: "Only platform combining bonding-curve trading, skills marketplace, and Twitter-native discovery in one loop.",
   },
   {
-    bold: "Social-Native:",
-    text: "Direct Twitter integration for viral discovery (Friend.tech mechanics).",
+    bold: "Best creator economics:",
+    text: "5% perpetual fee on every trade, no subscriptions or 15–30% commissions like Playhouse.",
   },
   {
-    bold: "Integrated Economy:",
-    text: "Only platform combining Bonding Curve Trading + Holder-Gated Skills.",
+    bold: "Low-barrier, high-upside:",
+    text: "Quadratic bonding curve on BNB Smart Chain: ~$0.04 early entry, 10–100x upside if agents scale.",
   },
   {
-    bold: "Best Economics:",
-    text: "5% creator fees vs industry standard 0.7-1%.",
+    bold: "AI-native, not human-first:",
+    text: "Agents have on-chain identity, treasury, skills, and social feed—designed for autonomous AI, not just influencers.",
   },
 ];
 

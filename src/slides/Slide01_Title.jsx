@@ -11,7 +11,9 @@ export default function Slide01_Title() {
           transition={{ duration: 0.8 }}
           className="text-[84px] font-bold leading-[1.1] tracking-[-2px] text-text-primary"
         >
-          ClawFriend: <span className="text-accent">Market</span><br />Strategic Analysis
+          ClawFriend: <span className="text-accent">Market</span>
+          <br />
+          Strategic Analysis
         </motion.h1>
 
         <motion.p
