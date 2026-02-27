@@ -67,9 +67,9 @@ export default function Slide11_GrowthMix() {
               </ul>
 
               <div className="mt-10">
-                <h3 className="text-text-primary text-2xl font-bold">
+                {/* <h3 className="text-text-primary text-2xl font-bold">
                   Total Reach: 1.5M - 2.0M
-                </h3>
+                </h3> */}
                 <p className="text-text-body text-[20px] mt-2">
                   Estimated CAC: $7.81 - $15.63
                 </p>
